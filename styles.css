@@ -1,0 +1,170 @@
+body
+{
+  font-family: "Ubuntu", sans-serif;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+h3
+{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  }
+p
+{
+    color:#8f8f8f;
+    font-size: 20px;
+}
+
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-weight: bold;
+}
+
+
+
+
+/* Title */
+ #title
+{
+  background-color:#ff4c68;
+  color:#fff;
+}
+.big-heading
+{
+  font-family:"Handlee";
+  font-size:3.5rem;
+  padding: 150px 100px 50px 100px;
+}
+.title-image
+{
+  width: 300px;
+  height:600px;
+  margin:100px 100px 0 150px;
+  transform: rotate(10deg);
+  position:absolute;
+/* z-index: -1; */
+}
+.container-fluid
+{
+  padding:3% 15%;
+}
+.dwnldbutton
+{
+  margin-left: 120px;
+  margin-bottom: 150px;
+}
+.navcolor
+{
+  background-color:#f5254b;
+}
+/* features section */
+#features
+{
+  padding: 7% 15%;
+  position:relative;
+  z-index: 1;
+  background-color: #fff;
+}
+.feature-box
+{
+  text-align: center;
+  padding:5%;
+}
+
+.icon
+{
+  margin:15px;
+  color:#000;
+}
+.feature-box:hover
+{
+  background-color: #ffc4d3;
+ margin-top: 15px;
+}
+/*testimonial section*/
+#testimonials
+{
+  padding:50px;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.btn
+{
+  margin:10px;
+}
+.testimonial-img
+{
+  border-radius: 100%;
+  width:30%;
+  margin:20px;
+}
+.carousel-item
+{
+  padding:12% 20%;
+}
+/*press*/
+#press
+{
+background-color: #ef8172;
+text-align: center;
+}
+.logo-icon
+{
+width:15%;
+margin:80px 30px;
+}
+/* Pricing */
+#pricing
+{
+text-align: center;
+padding: 100px;
+}
+.pricing-column
+{
+  padding:2% 3%;
+  margin-top: 30px;
+  background-color: #ef8172;
+}
+@media (max-width:1028px) {
+  .title-image
+  {
+    position: static;
+    transform: rotate(0deg);
+    margin-left: 80px;
+  }
+  .row
+  {
+    text-align: center;
+  }
+  .dwnldbutton
+  {
+    margin-left: 0px;
+    margin-bottom: 150px;
+  }
+}
+/* call to action */
+#cta
+{
+  background-color:#ff4c68 ;
+  text-align: center;
+  color: #fff;
+  padding:20px;
+}
+.dwnldbutton2
+{
+  margin-left: 0px;
+  margin-bottom: 80px;
+}
+/* footer */
+#footer
+{
+  text-align: center;
+  padding: 100px 0 0 50px;
+}
+.śocial-logo
+{
+  margin:20px;
+}
